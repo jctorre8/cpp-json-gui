@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="gcc -L../../../../../usr/lib -lstdc++ -lm -ljsoncpp">
+      <target file="waypoint" lastModified="161ab91d260">
+         <source file="../obj/main.o" lastModified="161ab89f2c0"/>
+         <source file="../obj/Waypoint.o" lastModified="161ab8c4098"/>
+      </target>
+   </processor>
+   <processor signature="gcc -L../../../../../usr/lib -lstdc++ -lfltk">
+      <target file="guiSample" lastModified="161aad43f20">
+         <source file="../obj/WaypointGUI.o" lastModified="161aad43f20"/>
+         <source file="../obj/samplemain.o" lastModified="161aad43f20"/>
+      </target>
+   </processor>
+</history>

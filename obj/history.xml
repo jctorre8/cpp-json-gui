@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="gcc noversion nomachine -std=c++14 -c">
+      <target file="Waypoint.o" lastModified="161ab8c4098">
+         <source file="../src/cpp/Waypoint.cpp" lastModified="161ab8c2928"/>
+      </target>
+      <target file="main.o" lastModified="161ab89f2c0">
+         <source file="../src/cpp/main.cpp" lastModified="160bcbcad90"/>
+      </target>
+   </processor>
+   <processor signature="gcc noversion nomachine -std=c++14 -c -I../../../../usr/include -I../../../../usr/local/include">
+      <target file="WaypointGUI.o" lastModified="161aad43f20">
+         <source file="../src/sample/cpp/WaypointGUI.cpp" lastModified="161479f9440"/>
+      </target>
+      <target file="samplemain.o" lastModified="161aad43f20">
+         <source file="../src/sample/cpp/samplemain.cpp" lastModified="161479e2ce0"/>
+      </target>
+   </processor>
+</history>

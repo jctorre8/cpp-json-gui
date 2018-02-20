@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I../../../../usr/include /I../../../../usr/local/include">
+      <source file="../../../../../usr/include/X11/keysym.h" lastModified="157ec068db8">
+         <include file="../../../../../usr/include/X11/keysymdef.h"/>
+      </source>
+      <source file="../../../../../usr/include/X11/Xosdefs.h" lastModified="157ec068db8">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Scrollbar.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Slider.H"/>
+      </source>
+      <source file="../../../../../usr/include/X11/Xfuncproto.h" lastModified="157ec068db8">
+      </source>
+      <source file="../../../../../usr/include/X11/keysymdef.h" lastModified="157ec068db8">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Multiline_Input.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Input.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Menu_Button.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Menu_.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Image.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Enumerations.H"/>
+         <include file="../../../../../usr/include/stdlib.h"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Plugin.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Preferences.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Valuator.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Export.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Cairo.H"/>
+         <include file="../../../../../usr/include/FL/fl_utf8.h"/>
+         <include file="../../../../../usr/include/FL/Enumerations.H"/>
+         <include file="../../../../../usr/include/stdio.h"/>
+         <include file="../../../../../usr/include/FL/Fl.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Window.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/fl_types.h" lastModified="15a69039980">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Input_Choice.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Group.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Input.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Menu_Button.H"/>
+         <include file="../../../../../usr/include/FL/fl_draw.H"/>
+         <include file="../../../../../usr/include/string.h"/>
+         <include file="../../../../../usr/include/stdio.h"/>
+         <include file="../../../../../usr/include/FL/Fl.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Double_Window.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Input_Choice.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Text_Buffer.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/assert.h"/>
+         <include file="../../../../../usr/include/FL/Fl_Export.H"/>
+      </source>
+      <source file="../../../../../usr/include/X11/X.h" lastModified="157ec068db8">
+         <include file="../../../../../usr/include/X11/Xmd.h"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Output.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Input.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Preferences.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/stdio.h"/>
+         <include file="../../../../../usr/include/FL/Fl_Export.H"/>
+      </source>
+      <source file="../../../../../usr/include/assert.h" lastModified="15cad302a90">
+         <include file="../../../../../usr/include/features.h"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Bitmap.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Image.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Enumerations.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/abi-version.h"/>
+         <include file="../../../../../usr/include/FL/Fl_Export.H"/>
+         <include file="../../../../../usr/include/FL/fl_types.h"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Group.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/abi-version.h" lastModified="15a69039980">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Input_.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Button.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+      </source>
+      <source file="../../../../../usr/include/X11/Xlocale.h" lastModified="159e22e6b10">
+         <include file="../../../../../usr/include/X11/Xfuncproto.h"/>
+         <include file="../../../../../usr/include/X11/Xosdefs.h"/>
+         <include file="../../../../../usr/include/locale.h"/>
+      </source>
+      <source file="../../../../../usr/include/xlocale.h" lastModified="15cad302a90">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Pixmap.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Image.H"/>
+         <include file="../../../../../usr/include/FL/x.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Input.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Input_.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Export.H" lastModified="15a69039980">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Double_Window.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Window.H"/>
+      </source>
+      <source file="../../../../../usr/include/X11/Xutil.h" lastModified="159e22e6b10">
+         <include file="../../../../../usr/include/X11/Xlib.h"/>
+         <include file="../../../../../usr/include/X11/keysym.h"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Device.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/x.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Plugin.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Image.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Bitmap.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Pixmap.H"/>
+         <include file="../../../../../usr/include/FL/Fl_RGB_Image.H"/>
+         <include file="../../../../../usr/include/stdlib.h"/>
+      </source>
+      <source file="../../../../../usr/include/getopt.h" lastModified="15cad302a90">
+         <include file="../../../../../usr/include/ctype.h"/>
+      </source>
+      <source file="../../../../../usr/include/X11/Xatom.h" lastModified="157ec068db8">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_RGB_Image.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Image.H"/>
+      </source>
+      <source file="../../../../../usr/include/stdc-predef.h" lastModified="15cad302a90">
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Menu_Item.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Image.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/x.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Enumerations.H"/>
+         <include file="../../../../../usr/include/FL/win32.H"/>
+         <include file="../../../../../usr/include/FL/mac.H"/>
+         <include file="../../../../../usr/include/X11/Xlib.h"/>
+         <include file="../../../../../usr/include/X11/Xutil.h"/>
+         <include file="../../../../../usr/include/X11/Xatom.h"/>
+         <include file="../../../../../usr/include/FL/Fl_Window.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Slider.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Valuator.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/Fl_Menu_.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/Fl_Widget.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Menu_Item.H"/>
+      </source>
+      <source file="../../../../../usr/include/FL/fl_draw.H" lastModified="15a69039980">
+         <include file="../../../../../usr/include/FL/x.H"/>
+         <include file="../../../../../usr/include/FL/Enumerations.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Window.H"/>
+         <include file="../../../../../usr/include/FL/Fl_Device.H"/>
+      </source>
+   </includePath>
+   <includePath signature="">
+      <source file="../src/cpp/Waypoint.hpp" lastModified="161ab89e708">
+         <sysinclude file="../../../../../usr/include/jsoncpp/json/json.h"/>
+      </source>
+      <source file="../src/cpp/main.cpp" lastModified="160bcbcbd30">
+         <include file="../src/cpp/Waypoint.hpp"/>
+         <sysinclude file="../../../../../usr/include/stdlib.h"/>
+      </source>
+      <source file="../src/cpp/Waypoint.cpp" lastModified="161ab8c30f8">
+         <include file="../src/cpp/Waypoint.hpp"/>
+         <sysinclude file="../../../../../usr/include/stdlib.h"/>
+      </source>
+   </includePath>
+</dependencies>

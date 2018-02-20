@@ -1,0 +1,52 @@
+{
+   "Barrow-Alaska" : {
+      "address" : "",
+      "ele" : 123,
+      "lat" : 123,
+      "lon" : 123,
+      "name" : "Barrow-Alaska"
+   },
+   "London-England" : {
+      "address" : "",
+      "ele" : 79,
+      "lat" : 51.507199999999997,
+      "lon" : 0.1275,
+      "name" : "London-England"
+   },
+   "New-York-NY" : {
+      "address" : "",
+      "ele" : 85,
+      "lat" : 40.712699999999998,
+      "lon" : -74.005899999999997,
+      "name" : "New-York-NY"
+   },
+   "Paris-France" : {
+      "address" : "",
+      "ele" : 115,
+      "lat" : 48.856699999999996,
+      "lon" : 2.3508,
+      "name" : "Paris-France"
+   },
+   "Salt-Lake-City-UT" : {
+      "address" : "",
+      "ele" : 4226,
+      "lat" : 40.760800000000003,
+      "lon" : -111.89100000000001,
+      "name" : "Salt-Lake-City-UT"
+   },
+   "test1" : {
+      "address" : "",
+      "ele" : 123,
+      "lat" : 123,
+      "lon" : 123,
+      "name" : "test1"
+   },
+   "test2" : {
+      "address" : "",
+      "ele" : 123,
+      "lat" : 123,
+      "lon" : 123,
+      "name" : "test2"
+   }
+}
+
