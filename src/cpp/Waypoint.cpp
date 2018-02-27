@@ -95,13 +95,13 @@ double Waypoint::distanceGCTo(Waypoint wp, int scale){
 
 double Waypoint::bearingGCInitTo(Waypoint wp, int scale){
    double ret = 0.0;
-   double lat1 = this->toRadians(this->lat);
-   double lat2 = this->toRadians(wp.lat);
-   double deltaLat = this->toRadians(wp.lat-this->lat);
-   double deltaLon = this->toRadians(wp.lon-this->lon);
+   double lat2 = this->toRadians(this->lat);
+   double lat1 = this->toRadians(wp.lat);
+   double deltaLat = this->toRadians(this->lat-wp.lat);
+   double deltaLon = this->toRadians(this->lon-wp.lon);
    double y = std::sin(deltaLon) * std::cos(lat2);
-   double x = std::cos(lat1) * std::sin(lat2) - 
-                 std::sin(lat1) * std::cos(lat2) * std::cos(deltaLat);
+   double x = (std::cos(lat1) * std::sin(lat2)) - 
+                 (std::sin(lat1) * std::cos(lat2) * std::cos(deltaLon));
    double brng = atan2(y,x);
    ret = this->toDegrees(brng);
    return ret;

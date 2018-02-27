@@ -3,6 +3,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <sstream> 
+#include <iomanip> // setprecision
 
 
 /**
@@ -233,6 +235,27 @@ std::vector<string> WaypointLibrary::getNames(){
         this->names.push_back(this->library[i].name);
     }
     return this->names;
+}
+
+string WaypointLibrary::distanceAndBearing(string waypoint1, string waypoint2){
+    Waypoint * wpnt1 = this->get(waypoint1);
+    Waypoint * wpnt2 = this->get(waypoint2);
+
+    double distance = wpnt1->distanceGCTo(*wpnt2,0);
+    double bearing = wpnt1->bearingGCInitTo(*wpnt2,0);
+
+    stringstream stream1, stream2;
+    string toReturn = "";
+
+    stream1 << fixed << std::setprecision(2) << distance;
+
+    toReturn += stream1.str() + " miles at ";
+
+    stream2 << fixed << std::setprecision(2) << bearing;
+
+    toReturn += stream2.str() + " degrees ";
+
+    return toReturn;
 }
 
 

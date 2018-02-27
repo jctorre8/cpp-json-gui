@@ -113,6 +113,8 @@ class WaypointLibrary{
     */
     bool saveToFile();
 
+    string distanceAndBearing(string waypoint1, string waypoint2);
+
     /**
     * This method collects all the the waypoint names in the library and returns them.
     * 

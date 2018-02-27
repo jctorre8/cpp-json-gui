@@ -201,6 +201,23 @@ class WaypointClient : public WaypointGUI {
                 << std::endl;
    }
 
+   static void ClickedDistBear(Fl_Widget * w, void * userdata) {
+      WaypointClient* anInstance = (WaypointClient*)userdata;
+      Fl_Input_Choice * fromWPChoice = anInstance->frWps;
+      Fl_Input_Choice * toWPChoice = anInstance->toWps;
+      Fl_Input * distBearIn = anInstance->distBearIn;
+
+      std::string wpnt1(fromWPChoice->value());
+      std::string wpnt2(toWPChoice->value());
+      std::string distBear(anInstance->library->distanceAndBearing(wpnt1, wpnt2));
+
+      distBearIn->value(distBear.c_str());
+
+      std::cout << "You changed the selection in the Fl_Input_Choice from to the value "
+                << distBear
+                << std::endl;
+   }
+
 public:
    WaypointClient(const char * name = 0) : WaypointGUI(name) {
       library = new WaypointLibrary("waypoints.json");
@@ -215,7 +232,7 @@ public:
       frWps->callback(SelectedFromWP, (void*)this);
       saveButt->callback(ClickedSave, (void*)this);
       refreshButt->callback(ClickedRefresh, (void*)this);
-      //distBearButt>callback(ClickedAddWP, (void*)this);
+      distBearButt->callback(ClickedDistBear, (void*)this);
       callback(ClickedX);
    }
 
